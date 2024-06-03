@@ -1,62 +1,45 @@
 import React from 'react'
+import datascience from '../images/Course/datascience.jpg'
+import dataanalytics from '../images/Course/dataanalytics.jpg'
+
 const posts = [
   {
     id: 1,
-    title: 'Advanced Trends in Technology and Multidisciplinary Studies',
-    href: '#',
+    title: 'Mastering Data Analytics: From Insights to Action',
+    href: '/CourseDetail',
     description:
-      'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel iusto corrupti dicta laboris incididunt.',
-    imageUrl:
-      'https://images.pexels.com/photos/4443160/pexels-photo-4443160.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      'Explore the fundamentals of data analytics in this comprehensive course. Gain hands-on experience with industry-standard tools and techniques to analyze data and extract valuable insights. Perfect for beginners and professionals alike.',
+    imageUrl: dataanalytics,
     date: 'Mar 16, 2020',
     datetime: '2020-03-16',
-    category: { title: 'Management', href: '#' },
+    category: { title: 'Data Analytics ', href: '#' },
     author: {
-      name: 'Michael Foster',
+      name: 'Satyajit Pattnaik',
       role: 'Co-Founder / CTO',
       href: '#',
       imageUrl:
-        'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+        'https://res.cloudinary.com/dtsuvx8dz/image/upload/v1687806712/whmgy2fkkrpsduevi9mk.png',
     },
   },
    {
     id: 2,
-    title: 'Exploring insights of recent developments in Management and Social Sciences',
-    href: '#',
+    title: 'Data Science Fundamentals: From Zero to Hero',
+    href: '/CourseDetail',
     description:
-      'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel iusto corrupti dicta laboris incididunt.',
-    imageUrl:
-      'https://images.pexels.com/photos/4443160/pexels-photo-4443160.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      ' This course covers the basics of data science, including data analysis, visualization, and machine learning. Perfect for beginners, it provides a comprehensive introduction to the essential tools and techniques used by data scientists.',
+    imageUrl: datascience,
     date: 'Mar 16, 2020',
     datetime: '2020-03-16',
-    category: { title: 'Social Sciences', href: '#' },
+    category: { title: 'Data Science', href: '#' },
     author: {
-      name: 'Michael Foster',
+      name: 'Satyajit Pattnaik',
       role: 'Co-Founder / CTO',
       href: '#',
       imageUrl:
-        'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+        'https://res.cloudinary.com/dtsuvx8dz/image/upload/v1687806712/whmgy2fkkrpsduevi9mk.png',
     },
   },
-   {
-    id: 3,
-    title: 'Unifying the world through advanced Technology & communications',
-    href: '#',
-    description:
-      'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel iusto corrupti dicta laboris incididunt.',
-    imageUrl:
-      'https://images.pexels.com/photos/4443160/pexels-photo-4443160.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    date: 'Mar 16, 2020',
-    datetime: '2020-03-16',
-    category: { title: 'IT', href: '#' },
-    author: {
-      name: 'Michael Foster',
-      role: 'Co-Founder / CTO',
-      href: '#',
-      imageUrl:
-        'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-    },
-  },
+ 
   // More posts...
 ]
 
@@ -130,7 +113,7 @@ function Courses() {
                   <img
                     src={post.imageUrl}
                     alt=""
-                    className="absolute inset-0 h-full w-full rounded-2xl bg-gray-50 object-cover"
+                    className="absolute inset-0 h-full w-full rounded-2xl bg-gray-50 object-contain"
                   />
                   <div className="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10" />
                 </div>
@@ -141,7 +124,7 @@ function Courses() {
                     </time>
                     <a
                       href={post.category.href}
-                      className="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100"
+                      className="relative z-10 rounded-full bg-blue-100 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100"
                     >
                       {post.category.title}
                     </a>
@@ -177,7 +160,7 @@ function Courses() {
       </div>
     </div>
 
-<div className="bg-white py-24 sm:py-32">
+{/* <div className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Top Courses</h2>
@@ -219,7 +202,7 @@ function Courses() {
           ))}
         </div>
       </div>
-    </div>
+    </div> */}
      </section>
   )
 }

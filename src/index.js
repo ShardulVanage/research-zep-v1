@@ -23,6 +23,7 @@ import AwardsRecognitions from '../src/pages/AwardsRecognitions'
 import Nav from './components/Nav';
 import Footers from './components/Footer';
 import ContactUs from './pages/ContactUs';
+import CourseDetail from './pages/CourseDetail/CourseDetail';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -71,6 +72,10 @@ const router = createBrowserRouter([
   {
     path:"/ContactUs",
     element:<ContactUs/>
+  },
+  {
+    path:"/CourseDetail",
+    element:<CourseDetail/>
   },
 ]);
 
