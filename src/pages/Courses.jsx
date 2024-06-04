@@ -6,7 +6,7 @@ const posts = [
   {
     id: 1,
     title: 'Mastering Data Analytics: From Insights to Action',
-    href: '/CourseDetail',
+    href: '/CourseDetailDA',
     description:
       'Explore the fundamentals of data analytics in this comprehensive course. Gain hands-on experience with industry-standard tools and techniques to analyze data and extract valuable insights. Perfect for beginners and professionals alike.',
     imageUrl: dataanalytics,
@@ -24,7 +24,7 @@ const posts = [
    {
     id: 2,
     title: 'Data Science Fundamentals: From Zero to Hero',
-    href: '/CourseDetail',
+    href: '/CourseDetailDS',
     description:
       ' This course covers the basics of data science, including data analysis, visualization, and machine learning. Perfect for beginners, it provides a comprehensive introduction to the essential tools and techniques used by data scientists.',
     imageUrl: datascience,
@@ -119,15 +119,13 @@ function Courses() {
                 </div>
                 <div>
                   <div className="flex items-center gap-x-4 text-xs">
-                    <time dateTime={post.datetime} className="text-gray-500">
-                      {post.date}
-                    </time>
-                    <a
+                   
+                    <div
                       href={post.category.href}
-                      className="relative z-10 rounded-full bg-blue-100 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100"
+                      className="relative z-10 rounded-full bg-blue-200 px-3 py-1.5 font-medium text-gray-900"
                     >
                       {post.category.title}
-                    </a>
+                    </div>
                   </div>
                   <div className="group relative max-w-xl">
                     <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">

@@ -23,7 +23,8 @@ import AwardsRecognitions from '../src/pages/AwardsRecognitions'
 import Nav from './components/Nav';
 import Footers from './components/Footer';
 import ContactUs from './pages/ContactUs';
-import CourseDetail from './pages/CourseDetail/CourseDetail';
+import CourseDetail from './pages/CourseDetail/CourseDetailDA';
+import CourseDetailDS from './pages/CourseDetail/CourseDetailDS';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -74,11 +75,15 @@ const router = createBrowserRouter([
     element:<ContactUs/>
   },
   {
-    path:"/CourseDetail",
+    path:"/CourseDetailDA",
     element:<CourseDetail/>
   },
+  {
+    path:"/CourseDetailDS",
+    element:<CourseDetailDS/>
+  },
 ]);
-
+  
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

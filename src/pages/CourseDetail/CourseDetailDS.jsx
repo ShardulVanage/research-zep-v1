@@ -30,86 +30,473 @@ function YoutubeIcon(props) {
 </svg>
   )
 }
+
 const faqs = [
   {
-    question: "Introduction",
-    answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      question: "Introduction ",
+      answer: [
+        "Welcome to the course!!",
+        "Course Resources",
+        "Join our Community",
+        
+      ],
+  },
+
+
+  {
+      question: "Python Programming",
+      answer: [
+       
+        "Introduction to Python",
+        "Variables Keywords",
+        "Datatypes Operators",
+        "Lists",
+        "Tuples",
+        "Dictionary",
+        "Sets",
+        "Loops Iteration",
+        "Functions",
+        "File Handling",
+        "Control Structures",
+        "OOPs",
+        "NumPy",
+        "Pandas",
+        "Data Visualization",
+        "Matplotlib",
+        "Seaborn",
+
+      ],
   },
   {
-    question: "Python Programming",
-    answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      question: "Statistics for Data Science",
+      answer: [
+         
+        "Intro to Stats",
+        "Agenda",
+        "Descriptive Statistics",
+        "Inferential Statistics",
+        "Qualitative Data",
+        "Quantitative",
+        "Agenda",
+        "Pop vs Sample",
+        "Why Sampling is Important",
+        "Types of Sampling",
+        "Cluster Random Sampling",
+        "Probability Sampling",
+        "Non Probability Sampling",
+        "Population Sampling",
+        "Why n1 and not n",
+        "Agenda NEW",
+        "Agenda",
+        "Measures of Central Tendency",
+        "Mean",
+        "Median",
+        "Mode",
+        "Measures of Dispersion",
+        "Range",
+        "IQR",
+        "Variance and Standard Deviation",
+        "Mean Deviation",
+        "Agenda",
+        "Probability",
+        "Addition Rule",
+        "Independent Events",
+        "Cumulative Probability",
+        "Conditional Probability",
+        "Bayes Theorem 1",
+        "Bayes Theorem 2",
+        "Agenda NEW",
+        "Agenda",
+        "Uniform Distribution",
+        "Binomial Distribution",
+        "Poisson Distribution",
+        "Normal Distribution 1",
+        "Normal Distribution 2",
+        "Skewness",
+        "Kurtosis",
+        "Calculating Probability with Z Score [part 1]",
+        "Calculating Probability with Z Score [part 2]",
+        "Calculating Probability with Z Score [part 3]",
+        "Agenda",
+        "Covariance",
+        "Correlation",
+        "Correlation vs Covariance",
+        "Correlation",
+        "p value",
+        "T Test",
+        "Tailed Tests",
+        "Types of Test",
+        "Z Test",
+        "Chi Square",
+        "ANOVA",
+      ],
   },
   {
-    question: "Statistics for Data Science",
-    answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      question: "SQL",
+      answer: [
+        "Installation",
+        "File Server vs Client Server",
+        "Introduction to SQL",
+        "Constraints in SQL",
+        "Table Basic DDLs",
+        "Table Basics - DQLs",
+        "Table Basics - DMLs",
+        "Joins",
+        "Data Import Export",
+        "Aggregation",
+        "String Functions",
+        "Date Time Functions",
+        "Regular Expressions",
+        "Nested Queries",
+        "Views",
+        "Stored Procedures",
+        "Windows Function",
+        "SQL Python Connectivity",
+
+      ],
   },
   {
-    question: "SQL",
-    answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      question: "Machine Learning",
+      answer: [
+        "INTRO - Agenda",
+        "INTRO - Introduction",
+        "INTRO - Types of ML",
+        "INTRO - Use Cases Part 1",
+        "INTRO - Use Cases Part 2",
+        "PRE REQUISITE - Features",
+        "PRE REQUISITE - Train-Test-Split",
+        "PRE REQUISITE - Feature Scaling",
+        "PRE REQUISITE - Standardization",
+        "PRE REQUISITE - Normalization",
+        "PRE REQUISITE - Feature Encoding",
+        "PRE REQUISITE - Feature Encoding Practicals",
+        "REGRESSION - Regression",
+        "REGRESSION - Regression Metrics (PRACTICALS)",
+        "REGRESSION - SLR",
+        "REGRESSION - MLR",
+        "REGRESSION LR Codes",
+        "REGRESSION - MLR Example",
+        "REGRESSION - Polynomial Regression",
+        "REGRESSION - Polynomial Regression Practicals",
+        "REGRESSION - Bias Variance Tradeoff",
+        "REGRESSION - Ridge Regression",
+        "REGRESSION - Lasso Regression",
+        "REGRESSION - Ridge and Lasso Regression Practicals",
+        "CLASSIFICATION - Classification",
+        "CLASSIFICATION - Types Of Classification",
+        "CLASSIFICATION - Log Loss",
+        "CLASSIFICATION - Confusion Matrix",
+        "CLASSIFICATION - AOC RUC",
+        "CLASSIFICATION - Classification Report",
+        "CLASSIFICATION - KNN",
+        "CLASSIFICATION - KNN Excel Example",
+        "CLASSIFICATION - Classification Practicals Part 1",
+        "CLASSIFICATION - KNN Code",
+        "CLASSIFICATION - Decision Tree",
+        "CLASSIFICATION - DT Example Entropy",
+        "CLASSIFICATION - DT Gini Index",
+        "CLASSIFICATION - DT Code",
+        "CLASSIFICATION - Visualizing DT",
+        "CLASSIFICATION - Random Forest",
+        "CLASSIFICATION - RF Code",
+        "CLASSIFICATION - Naive Bayes",
+        "CLASSIFICATION - SVMs Part 1",
+        "CLASSIFICATION - SVMs Part 2",
+        "CLASSIFICATION - Logistic Regression",
+        "CLASSIFICATION - Practicals So Far",
+        "CLASSIFICATION - Issues in Classification Part 1",
+        "CLASSIFICATION - Issues in Classification Part 2",
+        "CLASSIFICATION - Practicals",
+        "ENSEMBLE - Ensemble",
+        "ENSEMBLE - Bagging",
+        "ENSEMBLE - Bagging vs RF",
+        "ENSEMBLE - Bagging Practicals",
+        "ENSEMBLE - Bagging Reg Practicals",
+        "ENSEMBLE - Boosting",
+        "ENSEMBLE - Adaboost",
+        "ENSEMBLE - Gradient Boosting",
+        "ENSEMBLE - CF vs LF",
+        "ENSEMBLE - Cross Entropy",
+        "ENSEMBLE - XGBoost",
+        "ENSEMBLE - Practicals",
+        "CLUSTERING - Clustering",
+        "CLUSTERING - HC Practicals",
+        "CLUSTERING - Hierarchial Clustering",
+        "CLUSTERING - K Means Clustering",
+        "CLUSTERING - K means Clustering Practicals",
+        "CLUSTERING - Mean Shift Theory and Practicals",
+        "FEATURE ENGINEERING - Dimensionality Reduction",
+        "FEATURE ENGINEERING - RFE SFS",
+        "FEATURE ENGINEERING - RFE Practicals",
+        "FEATURE ENGINEERING - SFS",
+        "FEATURE ENGINEERING - CHI SQUARE TEST",
+        "FEATURE ENGINEERING - CHI SQUARE PRACTICALS",
+        "FEATURE ENGINEERING - PCA THEORY",
+        "FEATURE ENGINEERING - PCA PRACTICALS",
+        "FEATURE ENGINEERING - LDA THEORY",
+        "FEATURE ENGINEERING - LDA PRACTICALS",
+        "FEATURE ENGINEERING - kPCA & QDA",
+        "FEATURE ENGINEERING - kPCA & QDA PRACTICALS",
+        "HPO - HYPER PARAMETER OPTIMIZATION BASICS",
+        "HPO - MANUAL HPO",
+        "HPO - GRID VS RANDOM",
+        "HPO - MANUAL PRACTICALS",
+        "HPO - RSCV PRACTICALS",
+        "HPO - GSCV PRACTICALS",
+      ],
   },
   {
-    question: "Machine Learning",
-    answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      question: "Time Series Analysis",
+      answer: [
+     
+        "Introduction to TSA",
+        "Time Series vs Regression",
+        "Time Series Analysis",
+        "Anomaly Detection",
+        "Components of Time Series",
+        "Decomposition",
+        "Decomposition (Implementation)",
+        "Additive/Multiplicative Decomposition",
+        "Stationarity",
+        "Testing TS Stationarity",
+        "Transformation",
+        "Introduction to Pre-Processing",
+        "Handle Missing Value",
+        "Handle Missing Value (Code)",
+        "Outlier Treatment",
+        "Sigma Technique",
+        "Feature Scaling",
+        "Standardization",
+        "Normalization",
+        "Feature Scaling (Code)",
+        "Feature Encoding",
+        "Feature Encoding (Code)",
+        "Models - Algorithms",
+        "Models - ARIMA [part 1]",
+        "Models - ARIMA [part 2]",
+        "Models - AR Theory",
+        "Models - MA Theory",
+        "Models - ACF/PACF",
+        "Models - Find PDQ",
+        "Models - ARIMA (Code) [part 1]",
+        "Models - ARIMA (Code) [part 2]",
+        "Models - ARIMA (Final Code)",
+        "Models - Decomposition",
+        "Models - ACF/PACF",
+        "Models - Best Transformation",
+        "Models - Grid Search [part 1]",
+        "Models - Grid Search [part 2]",
+        "Models - Final Model",
+        "Models - FBProphet [part 1]",
+        "Models - FBProphet [part 2]",
+        "Models - FBProphet [part 3]",
+        "Models - Multi Variate TS Analysis",
+        "Models - FBProphet [Uni/Multi]",
+        "Introduction to Metrics",
+        "Forecasting Evaluation Metrics",
+        "Mean Squared Error",
+        "Root Mean Squared Error",
+        "Mean Absolute Percentage Error",
+        "Project 1 - Energy Forecasting #1",
+        "Project 1 - Energy Forecasting #2",
+        "Project 1 - Energy Forecasting #3",
+        "Project 2 - Stock Market Prediction #1",
+        "Project 2 - Stock Market Prediction #2",
+        "Project 2 - Stock Market Prediction #3",
+        "Project 2 - Demand Forecasting #1",
+        "Project 2 - Demand Forecasting #2",
+        "Project 2 - Demand Forecasting #3",
+        "Project 2 - Demand Forecasting #4",
+        "Project 2 - Demand Forecasting #5",
+        "Project 2 - Demand Forecasting #6",
+      ],
+  },
+
+  {
+      question: "Deep Learing",
+      answer: [
+        "Introduction to DL",
+        "Understanding Deep Learning",
+        "What is a Neuron",
+        "Activation Functions",
+        "Step Function",
+        "Linear Function",
+        "Sigmoid Function",
+        "TanH Function",
+        "ReLU Function",
+        "Backpropagation and Forward Pass",
+        "Gradient Descent",
+        "ANN Intuition",
+        "ANN Code",
+        "ANN HPO",
+        "CNN Steps in CNN",
+        "CNN What is CNN",
+        "CNN CNN Architecture Explained",
+        "CNN Image Augmentation",
+        "CNN Batch Size vs Iterations vs Epochs",
+        "CNN Code Implementation of CNN",
+        "CNN Model Summary & Parameters",
+        "CNN Hands on XRAY",
+        "RNN Basics",
+        "Types of RNN",
+        "RNN VG+EG",
+        "Before we move on",
+        "LSTM",
+        "LSTM Code",
+        "Pre trained RAW",
+        "Pre trained Code",
+        "VGG16",
+        "MobileNet",
+        "Transfer Learning",
+        "Final Project + Streamlit",
+      ],
   },
   {
-    question: "Time Series Analysis",
-    answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      question: "Natural Language Processing ",
+      answer: [
+        "Intro to NLP - NLP Intro",
+        "Intro to NLP - Intro Part 2",
+        "Intro to NLP - NLP Key Challenges",
+        "Intro to NLP - Linguistics",
+        "NLP Basics - Case Folding",
+        "NLP Basics - SCR",
+        "NLP Basics - Handling Contractions",
+        "NLP Basics - Tokenization",
+        "NLP Basics - Stop Words Removal",
+        "NLP Basics - nGrams",
+        "NLP Basics - Vectorization",
+        "NLP Basics - Word Embeddings",
+        "NLP Basics - BoW",
+        "NLP Basics - BoW Practicals",
+        "NLP Basics - TFIDF",
+        "NLP Basics - TFIDF Practicals",
+        "NLP Basics PoS & NER",
+        "NLP Basics - NER Practicals",
+        "Word Embeddings - Word2Vec Intro",
+        "Word Embeddings - Word2Vec Part 2",
+        "Word Embeddings - Pretrained Word2Vec",
+        "Word Embeddings - Word2Vec INTUITION",
+        "Word Embeddings - Word2Vec 50Features",
+        "Word Embeddings - Word2Vec CBOW",
+        "Word Embeddings - Word2Vec SkipGrams",
+        "Word Embeddings - GloVe",
+        "Word Embeddings - fastText",
+        "Word Embeddings - Cosine Similarity",
+        "Neural Networks - LSTM Part 1",
+        "Neural Networks - LSTM Part 2 Architecture",
+        "Neural Networks - LSTM Part 3 Deep Dive Architecture",
+        "Neural Networks - LSTM Part 4 Pointwise Operations",
+        "Neural Networks - LSTM Part 5 forgetGate",
+        "Neural Networks - LSTM Part 6 inputGate",
+        "Neural Networks - LSTM Part 7 outputGate",
+        "Neural Networks - LSTM Part 8 Practicals",
+        "Neural Networks - LSTM Part 9 Practicals",
+        "Neural Networks - LSTM Part 10 Practicals",
+        "Neural Networks - GRU Part 1",
+        "Neural Networks - GRU Part 2",
+        "Neural Networks - GRU Part 3 resetGate",
+        "Neural Networks - GRU Part 4 updateGate",
+        "Neural Networks - GRU Part 5 Practicals",
+        "Neural Networks - Bi Directional RNN",
+      ],
   },
   {
-    question: "Deep Learning",
-    answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      question: "Transformatiom n Gen Ai",
+      answer: [
+        
+        "Transformers",
+        "Self Attention",
+
+      ],
   },
   {
-    question: "Natural Language Processing",
-    answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      question: "Deployment",
+      answer: [
+         
+        "Deployment",
+        "Intro To Flask",
+        "Flask Basic App",
+        "Model Building Breast Cancer",
+        "Flask App Breast Cancer",
+        "AWS",
+        "AWS Deployment",
+       
+      ],
   },
   {
-    question: "Transformers n Gen AI",
-    answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      question: "Power Bi",
+      answer: [
+        "Course Details"
+
+      ],
   },
   {
-    question: "Deployment",
-    answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      question: "Tableau",
+      answer: [
+        "Course Details"
+      ],
   },
   {
-    question: "Power BI",
-    answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      question: "Data Engineering Basics",
+      answer: [
+       
+        "Course Details",
+        "Introduction",
+        "What is ETL",
+        "ETL Tools",
+        "What is a Data Warehouse",
+        "Table Basics - DDLs",
+        "Data Warehouse Structure",
+        "Why do we need staging",
+        "What are Data Marts",
+        "Data Lake",
+        "Data Lake vs Data Warehouse",
+        "Elements of Datalake",
+
+      ],
   },
   {
-    question: "Tableau",
-    answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
-  },
-  {
-    question: "Data Engineering Basics",
-    answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
-  },
-  {
-    question: "End to End Projects",
-    answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
-  },
+    question: "End to End Project",
+    answer: [
+     
+      "House Price Prediction (Advanced)",
+      "Appliance Energy Prediction",
+      "Australia Weather Prediction",
+      "Banking Term Deposit",
+      "Big Mart Sales Prediction",
+      "Bike Sharing Demand Prediction",
+      "Car Price Prediction",
+      "Cirrhosis Prediction",
+      "Credit Card Default Prediction",
+      "GS Rice Files",
+      "Heart Failure Prediction",
+      "Hospital Mortality",
+      "Income Data Classification",
+      "Loan Prediction",
+      "Migraine Classification",
+      "Policy Recommendation Systems",
+      "Prediction of Used Car Prices",
+      "Real Estate Analysis",
+      "Spanish Wine Quality",
+      "Stroke Prediction",
+      "Supply Chain Management",
+      "Water Quality Classification"
+      
+    ],
+},
+  // Add more FAQs here...
 ];
 
 
+
+
+
 const product = {
-  name: 'Mastering Data Analytics: From Insights to Action',
+  name: 'Data Science Fundamentals: From Zero to Hero',
   href: '#',
   price: '₹9,999',
   description:
-    "The surge of data is revolutionizing businesses, with companies of all sizes increasingly relying on data-driven insights for decision-making. Data specialists play a crucial role in shaping business strategies and marketing tactics, making their expertise highly sought after. ",
+    "The outburst of data is transforming businesses. Companies - big or small - are now expecting their business decisions to be based on data-led insight. Data specialists have a tremendous impact on business strategies and marketing tactics.",
   imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-04-featured-product-shot.jpg',
   imageAlt: 'Light green canvas bag with black straps, handle, front zipper pouch, and drawstring top.',
   breadcrumbs: [
@@ -123,25 +510,25 @@ const product = {
 }
 const policies = [
   {
-    name: '24/7 chat support',
+    name: '24/7 Chat Support',
     description:
       ' Access round-the-clock assistance from our dedicated support team to help you with any course-related queries.',
     imageSrc: chat,
   },
   {
-    name: ' resume preparation guidance',
+    name: ' Resume Preparation Guidance',
     description:
       'Receive expert advice on crafting a standout resume that highlights your newly acquired data science skills.',
     imageSrc: guide,
   },
   {
-    name: 'interview prep materials',
+    name: 'Interview Prep Materials',
     description:
       "Benefit from comprehensive materials designed to help you ace data science job interviews with confidence.",
     imageSrc: materials,
   },
   {
-    name: 'Certificate of completion',
+    name: 'Certificate of Completion',
     description:
       " Earn a verified certificate upon successfully finishing the course, showcasing your expertise to potential employers.",
     imageSrc: certificater,
@@ -299,7 +686,9 @@ function CourseDetail() {
                       </Disclosure.Button>
                     </dt>
                     <Disclosure.Panel as="dd" className="mt-2 pr-12">
-                      <p className="text-base leading-7 text-gray-600">{faq.answer}</p>
+                      <p className="text-base leading-7 text-gray-600">{faq.answer.map((item, i) => (
+                                                    <li key={i}>{item}</li>
+                                                ))}</p>
                     </Disclosure.Panel>
                   </>
                 )}
@@ -324,17 +713,16 @@ function CourseDetail() {
                Job Roles after the course
                </h1>
                <ul className='list-disc pl-8 '>
-                <li>Data Scientist</li>
-                <li>Data Scientist</li>
-                <li>AI Engineer</li>
-                <li>Gen AI Engineer</li>
-                <li>Data Analyst</li>
-                <li>Business Analyst</li>
-                <li>BI Analyst</li>
-                <li>BI Developer</li>
-                <li>Power BI Developer</li>
-                <li>Tableau Developer</li>
-                <li>and many more....</li>
+              <li>Data Scientist</li>
+              <li>AI Engineer</li>
+              <li>Gen AI Engineer</li>
+              <li>Data Analyst</li>
+              <li>Business Analyst</li>
+              <li>BI Analyst</li>
+              <li>BI Developer</li>
+              <li>Power BI Developer</li>
+              <li>Tableau Developer</li>
+              <li>and many more....</li>
 
                </ul>
 
