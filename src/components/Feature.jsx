@@ -9,37 +9,37 @@ const features = [
   {
     name: 'Conferences & Webinars',
     description:
-      'Autem reprehenderit aut debitis ut. Officiis harum omnis placeat blanditiis delectus sint vel et voluptatum. Labore asperiores non corporis molestiae.',
+      'Stay ahead in your field by joining our expert-led conferences and webinars. Engage with industry leaders, gain insights into the latest research, and expand your professional network from anywhere in the world',
     icon: UserGroupIcon,
   },
   {
     name: 'Journals',
     description:
-      'Illum et aut inventore. Ut et dignissimos quasi. Omnis saepe dolorum. Hic autem fugiat. Voluptatem officiis necessitatibus est.',
+      'Access a wide array of peer-reviewed journals covering various disciplines. Stay informed with the latest research, enhance your knowledge, and contribute to your field with our comprehensive collection',
     icon: BookOpenIcon,
   },
   {
     name: 'Publications',
     description:
-      'Commodi quam quo. In quasi mollitia optio voluptate et est reiciendis. Ut et sunt id officiis vitae perspiciatis. Et accusantium sapiente.',
+      'Discover a vast collection of high-quality publications across multiple domains. Whether you are researching for a project or looking to publish your own work, our platform provides the resources you need.',
     icon: NewspaperIcon,
   },
   {
     name: 'Language Support',
     description:
-      'Deserunt corrupti praesentium quo vel cupiditate est occaecati ad. Aperiam libero modi similique iure praesentium facilis quo cumque quibusdam.',
+      'Break down language barriers with our robust language support services. From translation to editing, we ensure your work is understood and appreciated by a global audience..',
     icon: LanguageIcon,
   },
     {
     name: 'Plagiarism check',
     description:
-      'Commodi quam quo. In quasi mollitia optio voluptate et est reiciendis. Ut et sunt id officiis vitae perspiciatis. Et accusantium sapiente.',
+      'Ensure the originality of your work with our advanced plagiarism detection tools. Protect your intellectual property and maintain academic integrity with comprehensive plagiarism checks',
     icon: DocumentCheckIcon,
   },
   {
     name: 'Publication Collaboration',
     description:
-      'Deserunt corrupti praesentium quo vel cupiditate est occaecati ad. Aperiam libero modi similique iure praesentium facilis quo cumque quibusdam.',
+      'Collaborate seamlessly with fellow researchers and authors. Our platform facilitates smooth communication and efficient co-authoring, making it easier to produce high-quality publications together.',
     icon: RectangleGroupIcon,
   },
 ]

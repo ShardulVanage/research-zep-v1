@@ -2,60 +2,60 @@ import testobg from '../images/testobg.png'
 import testobg2 from '../images/testobg2.png'
 const testimonials = [
   {
-    body: 'Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.',
+    body: 'This platform has been a game-changer for my research. The seamless integration of resources and the global connectivity it offers have significantly boosted the quality and reach of my work. Highly recommended for  innovate and collaborate',
     author: {
        id:1,
-      name: 'Leslie Alexander',
-      handle: 'lesliealexander',
+      name: 'John D.',
+      handle: 'John.D',
       imageUrl:
-        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+        'https://images.unsplash.com/photo-1607990281513-2c110a25bd8c?q=80&w=2134&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     },
   },
    {
-    body: 'Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.',
+    body: 'The support and tools provided here are unmatched. From language assistance to plagiarism checks, every feature is designed to uphold the highest standards of academic integrity and innovation. Its a must-have for anyone serious about their professional studies.',
     author: {
        id:2,
-      name: 'Leslie Alexander',
-      handle: 'lesliealexander',
+      name: 'Dr. Sarah M.',
+      handle: 'Sarah',
       imageUrl:
-        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+        'https://images.unsplash.com/photo-1619895862022-09114b41f16f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     },
   }, {
-    body: 'Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.',
+    body: 'Connecting with industry leaders and fellow professionals from around the world has never been easier. This platforms conferences and webinars have been instrumental in keeping me at the forefront of my field',
     author: {
        id:3,
-      name: 'Leslie Alexander',
-      handle: 'lesliealexander',
+      name: 'Michael L',
+      handle: 'Michael',
       imageUrl:
-        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+        'https://images.unsplash.com/photo-1630208232589-e42b29428b19?q=80&w=1969&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     },
   }, {
-    body: 'Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.',
+    body: 'The comprehensive collection of journals and publications available here is invaluable. It has made my job as an editor more efficient and has expanded our journals reach to a global audience',
     author: {
        id:4,
-      name: 'Leslie Alexander',
-      handle: 'lesliealexander',
+      name: 'Emily R.',
+      handle: 'Emily',
       imageUrl:
         'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
     },
   }, {
-    body: 'Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.',
+    body: 'As a PhD student, the publication collaboration feature has been incredibly helpful. It has allowed me to co-author papers with international researchers, greatly enhancing the quality and impact of my research.',
     author: {
       id:5,
-      name: 'Leslie Alexander',
-      handle: 'lesliealexander',
+      name: 'Raj P',
+      handle: 'Raj',
       imageUrl:
-        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+        'https://images.unsplash.com/photo-1600180758890-6b94519a8ba6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     },
   },
    {
-    body: 'Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.',
+    body: 'The language support services are exceptional. They ensure that research and publications are accessible and understood by a global audience, breaking down language barriers and promoting international collaboration..',
     author: {
        id:6,
-      name: 'Leslie Alexander',
-      handle: 'lesliealexander',
+      name: 'Laura S',
+      handle: 'Laura',
       imageUrl:
-        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+        'https://plus.unsplash.com/premium_photo-1688740375397-34605b6abe48?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     },
   }, 
   // More testimonials...
